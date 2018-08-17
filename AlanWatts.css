@@ -1,9 +1,11 @@
 body {
   background-image: url("https://ichef.bbci.co.uk/images/ic/1920x1080/p02vf39n.jpg");
   color: #333;
+  margin: 0 6%;
 }
 .intro {
-  margin: 100px 6% 0 6%; 
+  text-align: left;
+  margin: 100px 0 0 0; 
 }
 h1 {
   font-size: 7rem;
@@ -15,17 +17,22 @@ hr {
   border-top: 4px solid black;
   margin: 3rem 0;
 }
-p {
-  text-align: justify;  
+p {  
+  font-family: 'Baskerville';
+  text-align: left;  
+}
+.row {
+  margin-bottom: 3%;
 }
 .main {
-  padding: 6%;
+  margin: 0 -7%;  
+  padding: 7%;
   background: rgb(204, 204, 204);
   background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(204, 204, 204, 0.7) 20%);
 }
 .main-image {
   max-width: 90%;
-  margin-bottom: 6%;
+  margin-bottom: 30px;
 }
 .books {
   padding-top: 6%;
