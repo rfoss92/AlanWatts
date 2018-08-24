@@ -1,5 +1,6 @@
 body {
-  background-image: url("Watts.jpg");
+  background-image: url("img/Watts.jpg");
+  background-attachment: fixed;
   color: #333;
   margin: 0 6%;
 }
