@@ -14,6 +14,7 @@ h1 {
 } 
 h2 {
   font-size: 3rem;
+  margin-top: 0;
 }
 hr {
   border-top: 4px solid black;
@@ -40,17 +41,23 @@ p {
   padding-top: 6%;
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
 }
 .books-book {
  flex: 1;
+ margin: 0 25px;
+}
+.books-book p {
+  text-align: center;
+  font-weight: bold;
 }
 .books img{
-  width: 90%;
+  width: 150px;
   border: 4px outset white;
-  margin-bottom: 2%;  
+  margin: 25px 0 6px;  
 }
 .books-amazon {
-  width: 90%;
+  width: 150px;
 }
 i {
   font: "Sans-Serif";    
@@ -76,9 +83,9 @@ i {
     max-width: 400px;
   }
   .books img{
-    width: 40%;
+    width: 200px;
   }  
   .books-amazon {
-    width: 40%;
+    width: 200px;
   }    
 }
