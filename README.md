@@ -1,6 +1,6 @@
 # AlanWatts
 
- A tribute to Alan Watts
+ A tribute to Alan Watts.
  
  Responsive, mobile first design following BEM for CSS.
  
